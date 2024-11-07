@@ -31,13 +31,15 @@
     width: 60vw;
 }
 
-.container__botao:checked ~ .lista-menu {
+.container__botao { 
     display: block;
 }
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
   }
+  
   .lista-menu__titulo,
   .lista-menu__item {
   padding: 1em;
@@ -50,4 +52,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+  }
+
+  .container__botao {
+    display: none;
   }
